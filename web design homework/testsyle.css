@@ -1,0 +1,119 @@
+
+.menu-btn {
+   color: rgb(0, 0, 0);
+   padding: 8px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: Verdana, sans-serif;
+   border: none;
+   background-color: #ffffff;
+}
+.dropdown-menu {
+   position: relative;
+   display: inline-block;
+   float: right;
+   border: none;
+   min-width: 0;
+   padding: 0;
+   margin: 0;
+
+}
+.home {
+    background-color: #1fe5f3;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+ }
+.menu-content {
+   display: none;
+   position: absolute;
+   background-color: #ffffff;
+   min-width: 200px;
+   z-index: 1;
+   float: left;
+}
+nav{
+   background-color: #ffffff;
+}
+.links,.links-hidden{
+   display: inline-block;
+   color: rgb(0, 0, 0);
+   padding: 12px 16px;
+   text-decoration: none;
+   font-family: Verdana, sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+   float: right;
+}
+.links-hidden{
+   display: block;
+}
+.links{
+   display: inline-block;
+}
+.links-hidden:hover,.links:hover {
+    background-color: #1fe5f3;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+    background-color: #1fe5f3;
+}
+
+.pi {
+   background-color: grey;
+ }
+
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .skyblue {
+    background: deepskyblue;
+  }
+  
+  .purple {
+    background: rebeccapurple;
+  }
+  
+  .red {
+    background: rgb(212, 212, 212);
+  }
+  
+  .img-thumbnail2 {
+   padding: .25rem;
+   background-color: rgb(255, 255, 255);
+   max-width: 25%;
+ }
+
+ .col-md-8 {
+   background-color:white;
+   padding: 20px;
+   background-clip: content-box;
+}
+
+.col-md-12 {
+   background-color:white;
+   padding: 20px;
+   background-clip: content-box;
+}
+.col-md-4 {
+   padding: 20px;
+   background-clip: content-box;
+   background-color: white;
+}
+
+.container {
+   padding-top: 10px;
+   background-clip: content-box;
+   background-color: white;
+}
