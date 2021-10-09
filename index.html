@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dan's Web Homework's Homepage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="testsyle.css">
+</head>
+
+<body style="background-color:  rgb(206, 206, 206)">
+    <nav>
+        <a class="home" href="index.html">Latitude</a>
+
+        <a class="links" href="Data.html">Data</a>
+        <a class="links" href="comparison.html">Comparison</a>
+            <div class="dropdown-menu">
+            <button class="menu-btn">Open ↓</button>
+                <div class="menu-content">
+                    <a class="links-hidden" href="cloudiness.html">Cloudiness </a>
+                    <a class="links-hidden" href="Temperature.html">Temperature</a>
+                    <a class="links-hidden" href="Humidity.html">Humidity </a>
+                    <a class="links-hidden" href="windspeed.html">Wind Speed</a>
+                </div>
+            </div>
+      </nav>
+
+   <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <h1>Summary: Latitude vs. X</h1>
+              <br>
+                  <a href="Temperature.html">
+                    <img src="https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20temp.png"  alt="..." class="img-thumbnail">
+                  </a>
+                <div class="caption">
+                  <br>
+                  <p>The Purpose of this project was to analyze how weather changes as you get closere to the equator. 
+                    To Accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 citties.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects fo the weather vs latitude. Factors we looked at 
+                      included: temperature, cloudiness, wind speed, and humidity. This site provieds the source data and visualizations created
+                      as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="col-md-12">
+              <h2 class="green">Visualizations</h2>
+              <br>
+              <div class="boxbar"></div>
+              <div class="row">
+              <div class="col-3 col-md-6" >
+                <a href="Temperature.html">
+                <img src="https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20temp.png" alt="..." class="img-thumbnail">
+              </a>
+              </div>
+              <div class="col-3 col-md-6">
+                <a href="Humidity.html">
+                <img src="https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20humidity.png" alt="..." class="img-thumbnail">
+              </a>
+              </div>
+              <div class="col-3 col-md-6">
+                <a href="cloudiness.html">
+                <img src="https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20cloudiness.png" alt="..." class="img-thumbnail">
+              </a>
+              </div>
+              <div class="col-3 col-md-6">
+                <a href="windspeed.html">
+                <img src="https://raw.githubusercontent.com/danpranjic/python-api-challenge/main/pandas%20api%20hw/lat%20wind.png" alt="..." class="img-thumbnail">
+              </a>
+              </div>
+            </div>
+          </div>
+      </div>
+   </div>
+  </body>
+
+</html>
+      
